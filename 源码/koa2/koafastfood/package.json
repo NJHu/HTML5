@@ -1,0 +1,24 @@
+{
+  "name": "koafastfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "db": "^1.0.6",
+    "ejs": "^2.5.7",
+    "fs": "^0.0.1-security",
+    "keygrip": "^1.0.2",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2",
+    "koa-views": "^6.1.4",
+    "path": "^0.12.7"
+  }
+}

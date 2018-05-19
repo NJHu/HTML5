@@ -1,0 +1,277 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>上合商城</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<style type="text/css">
+	.header {
+	}
+	.top-content {
+		width: 990px;
+		background-color: #ffe;
+		height: 68px;
+		margin: 0 auto;
+	}
+	.top-content img {
+		margin-top: 20px;
+		margin-right: auto;
+	}
+	.top-content .search {
+		display: inline-block;
+		background: url('./images/search2.jpg') no-repeat right;
+		padding-right: 40px;
+		border: 1px solid #999;
+		height: 30px;
+		float: right;
+		margin-top: 20px;
+	}
+	.top-content .search input {
+		height: 30px;
+		width: 100px;
+		margin-left: 10px;
+		background-color: red;
+	}
+	.nav-item {
+		height: 50px;
+		background: url('./images/nav_bg.png');
+	}
+	.nav-item .items {
+		width: 990px;
+		height: 50px;
+		margin: 0 auto;
+	}
+	.nav-item .items ul li {
+		float: left;
+		background: url(./images/nav_bg-line.png) no-repeat right;
+	}
+	.nav-item .items ul li a {
+		display: inline-block;
+		width: 150px;
+		text-align: center;
+		height: 50px;
+		vertical-align: middle;
+		line-height: 50px;
+		color: black;
+		font-weight: 900;
+	}
+	.nav-item .items ul li a:hover {
+		color: red;
+	}
+	.content img {
+		width: 990px;
+		margin: 0 auto;
+		display: block;
+	}
+	.news {
+		background-color: #eeeeee;
+		height: 33px;
+		border-top: 1px solid #333;
+		border-bottom: 1px solid #333;
+	}
+	.new-content {
+		width: 990px;
+		margin: 0 auto;
+		background-color: yellow;
+		height: 33px;
+		vertical-align: middle;
+		line-height: 33px;
+	}
+	.icon-share {
+		float: right;
+		height: 33px;
+	}
+	.icon-share img {
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+		margin-top: 6px;
+	}
+	.news-lists {
+		width: 990px;
+		display: flex;
+		margin: 20px auto 20px auto;
+	}
+	.news-lists div {
+		height: 250px;
+		border: 1px solid #999;
+		position: relative;
+	}
+	.new-product, .news-center{
+		margin-right: 10px;
+	}
+	.new-product, .support{
+		width: 250px;
+	}
+	.news-center {
+		flex: 1;
+	}
+	.new-product img {
+		width: 100%;
+	}
+	.new-product button {
+		width: 30px;
+		height: 30px;
+	}
+	.new-product .left {
+		position: absolute;
+		background: url('./images/left.png') no-repeat;
+		top: 100px;
+	}
+	.new-product .right {
+		position: absolute;
+		background: url('./images/right.png') no-repeat;
+		right: 0;
+		bottom: 130px;
+	}
+	.new-des {
+		height: 20px;
+		margin-top: 10px;
+		width: 100%;
+	}
+	.new-des img {
+		width: 20px;
+		height: 20px;
+		display: inline;
+		padding-left: 10px;
+		vertical-align: middle;
+	}
+	.news-center ul {
+		padding: 10px 20px;
+	}
+	.news-center ul li {
+		border-bottom: 1px dotted green;
+	}
+	.news-center ul li a {
+		display: inline-block;
+		height: 30px;
+		line-height: 30px;
+	}
+	.support ul {
+		padding: 20px 20px;
+	}
+	.support ul li {
+		margin-bottom: 5px;
+	}
+	.support ul li a {
+		display: inline-block;
+		height: 15px;
+		line-height: 15px;
+		padding-left: 10px;
+		border-left: 5px solid green; 
+	}
+	.footer {
+		height: 200px;
+		background-color: red;
+		position: relative;
+	}
+	.footer-content {
+		margin: 0 auto;
+		height: 200px;
+	}
+	.footer-content ul {
+		padding-top: 20px;
+		width: 300px;
+	}
+	.footer-content ul li {
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	.footer-content ul li a {
+		display: inline-block;
+		font-weight: 600;
+		font-size: 17px;
+	}
+	.footer-des {
+		position: absolute;
+		bottom: 0;
+		width: 400px;
+		left: 50%;
+		margin-left: -200px;
+		text-align: center;
+	}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="top-content">
+			<img src="./images/logo.jpg" alt=""/>
+			<div class="search"><input type="text" value="请输入..."></div>
+		</div>
+		<div class="nav-item">
+			<div class="items">
+				<ul>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">首页</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<img src="./images/banner.jpg">
+		<div class="news">
+			<div class="new-content">
+				<label>最新公告：尚合Aone智能手机入网证已获取工信部门审批下发。尚合官网</label>
+				<div class="icon-share">
+					<img src="./images/weibo.png" alt="加载失败" title="123"/>
+					<img src="./images/weibo.png" alt="加载失败" title="123"/>
+					<img src="./images/weibo.png" alt="加载失败" title="123"/>
+					<img src="./images/weibo.png" alt="加载失败" title="123"/>
+				</div>
+			</div>
+		</div>
+		<div class="news-lists">
+			<div class="new-product">
+				<button class="left"></button>
+				<p class="new-des"><img src="./images/o.jpg"/>&nbsp新品发布</p>
+				<img src="./images/home_hot_01.png" alt="" title="标题"/>
+				<button class="right"></button>
+			</div>
+			<div class="news-center">
+				<p class="new-des"><img src="./images/o.jpg"/>&nbsp新品发布</p>
+				<ul>
+					<li><a href="#">13213</a></li>
+					<li><a href="#">13213</a></li>
+					<li><a href="#">13213</a></li>
+					<li><a href="#">13213</a></li>
+					<li><a href="#">13213</a></li>
+					<li><a href="#">13213</a></li>
+				</ul>
+			</div>
+			<div class="support">
+				<p class="new-des"><img src="./images/o.jpg"/>&nbsp新品发布</p>
+				<ul>
+					<li><a href="#">13213</a></li>
+					<li><a href="#">13213</a></li>
+					<li><a href="#">13213</a></li>
+					<li><a href="#">13213</a></li>
+					<li><a href="#">13213</a></li>
+					<li><a href="#">13213</a></li>
+				</ul>
+				<p>深圳市汇聚众合科技发展有限公司
+服务热线：400-633-7922</p>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer-content" style="width: 990px;">
+			<ul>
+					<li><a href="#">13213</a></li>
+					<li><a href="#">13213</a></li>
+					<li><a href="#">13213</a></li>
+					<li><a href="#">13213</a></li>
+					<li><a href="#">13213</a></li>
+					<li><a href="#">13213</a></li>
+					<li><a href="#">13213</a></li>
+					<li><a href="#">13213</a></li>
+					<li><a href="#">13213</a></li>
+			</ul>
+			<p class="footer-des">21321asdfassdf12897adsfasdfsad398</p>
+		</div>
+	</div>
+</body>
+</html>

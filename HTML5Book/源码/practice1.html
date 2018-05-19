@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		div.div1 ul.box li,div.div1 p{
+			color:red;
+		}
+		div.box p.p1,div.box div.div1 p,p {
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<div class="div1">
+		<ul class="box">
+			<li></li>
+			<div class="div1">
+				<p>111</p>
+			</div>
+		</ul>
+	</div>
+
+	<div class="box">
+		<p class="p1">
+		</p>
+		<div class="box">
+			<div class="div1">
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

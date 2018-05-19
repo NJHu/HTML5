@@ -1,0 +1,195 @@
+
+.nav-bar {
+    height: 30px;
+    background: #eeeeee;
+}
+.nav-mid {
+    height: 100%;
+    width: 980px;
+    background: rgba(200, 200, 200, 0.7);
+    margin: 0 auto;
+    position: relative;
+}
+.send-address {
+    position: relative;
+    padding: 7px 25px 7px 15px;
+    float: left;
+    overflow: hidden;
+}
+
+.send-address:hover {
+    background: white;
+}
+
+.send-address li {
+    position: absolute;
+    height: 10px;
+    width: 12px;
+    /*background: red;*/
+    top: 15px;
+    right: 5px;
+    overflow: hidden;
+}
+
+.send-address li s {
+    position: absolute;
+    top: -8px;
+}
+.navs {
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    /*background: red;*/
+    height: 30px;
+}
+
+.navs ul li {
+    float: left;
+    padding-top: 6px;
+}
+
+.navs ul li a {
+    line-height: 14px;
+    height: 14px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-left: 1px #999999 solid;
+    vertical-align: middle;
+    text-align: center;
+    cursor: move;
+}
+
+.navs ul .login-regist a {
+    padding-left: 0;
+    padding-right: 10px;
+    border-left: none;
+    cursor: text;
+}
+.navs ul .login-regist a:hover {
+    color: red;
+}
+
+.header-banner button {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+    right: 5px;
+    top: 5px;
+    background: url('../img/close-banner.png');
+}
+
+.header-banner button:hover {
+    background: url('../img/close-banner.png') 0 -19px;
+    cursor: move;
+}
+.right-logo {
+    float: left;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.shop-car {
+    float: right;
+    margin-top: 25px;
+    background-color: #eeeeee;
+    position: relative;
+}
+.bag {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    width: 14px;
+    height: 14px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    padding-bottom: 2px;
+    border-radius: 7px;
+    border-bottom-left-radius: 0;
+}
+
+.right-bag {
+    position: absolute;
+    right: 5px;
+    top: 17px;
+    background-color: darksalmon;
+    overflow: hidden;
+    width: 12px;
+    height: 20px;
+}
+
+.right-bag s {
+    position: absolute;
+    right: 5.5px;
+}
+
+.my-car {
+    background: url("../img/tel.png") no-repeat 40px -35px;
+    width: 120px;
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 15px 0;
+    padding-left: 30px;
+    background-size: 25px;
+    overflow: hidden;
+    background-clip: content-box;
+    border: 1px #888888 solid;
+}
+.my-car:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.center-search {
+    position: absolute;
+    width: 550px;
+    background-color: aliceblue;
+    height: 80px;
+    left: 50%;
+    margin-left: -220px;
+    top: 10px;
+}
+
+.search-input {
+    background-color: cornflowerblue;
+    padding-top: 10px;
+}
+.text-input {
+    width: 330px;
+    margin-left: 20px;
+    height: 40px;
+    border: 2px solid red;
+    padding-left: 10px;
+}
+.input-btn {
+    width: 100px;
+    color: white;
+    background-color: red;
+    height: 44px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.input-btn:hover {
+    cursor: pointer;
+}
+
+.sug-items {
+
+}
+
+.sug-items ul {
+
+}
+.sug-items ul li {
+    float: left;
+    margin-right: 10px;
+}
+.sug-items ul li a {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

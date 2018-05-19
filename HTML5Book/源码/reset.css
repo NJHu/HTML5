@@ -1,0 +1,23 @@
+			/*css初始化*/
+			body,h1,h2,h3,h4,h5,h6,p,ul,dl,dd{
+				margin: 0;
+				padding: 0;
+			}
+			body,h1,h2,h3,h4,h5,h6,p{
+				font-size:12px;
+				font-family: "宋体","微软雅黑";
+			}
+			ul{
+				list-style: none;
+
+			}
+			input{
+				border:0 none;
+				outline-style: none;  /*清除轮廓线*/
+			}
+			img{
+				border:0 none;
+			}
+			a{
+				text-decoration: none;
+			}
